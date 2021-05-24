@@ -12,6 +12,7 @@
 		095ACD7D265C247B00D00042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095ACD7B265C247B00D00042 /* LaunchScreen.storyboard */; };
 		095ACD8A265C257C00D00042 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACD88265C257C00D00042 /* SplashViewController.swift */; };
 		095ACD8B265C257C00D00042 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095ACD89265C257C00D00042 /* SplashViewController.xib */; };
+		095ACD94265C315700D00042 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACD93265C315700D00042 /* AppAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		095ACD7E265C247B00D00042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		095ACD88265C257C00D00042 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		095ACD89265C257C00D00042 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		095ACD93265C315700D00042 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		095ACD6F265C247200D00042 /* CiceSport */ = {
 			isa = PBXGroup;
 			children = (
+				095ACD92265C30DC00D00042 /* Core */,
 				095ACD87265C253300D00042 /* Modules */,
 				095ACD70265C247200D00042 /* AppDelegate.swift */,
 				095ACD79265C247B00D00042 /* Assets.xcassets */,
@@ -78,6 +81,14 @@
 				095ACD89265C257C00D00042 /* SplashViewController.xib */,
 			);
 			path = SplashView;
+			sourceTree = "<group>";
+		};
+		095ACD92265C30DC00D00042 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				095ACD93265C315700D00042 /* AppAssembly.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095ACD94265C315700D00042 /* AppAssembly.swift in Sources */,
 				095ACD71265C247200D00042 /* AppDelegate.swift in Sources */,
 				095ACD8A265C257C00D00042 /* SplashViewController.swift in Sources */,
 			);
@@ -299,7 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cice-Gonzalo.CiceSport";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cice-Gonzalo.CiceSport";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
