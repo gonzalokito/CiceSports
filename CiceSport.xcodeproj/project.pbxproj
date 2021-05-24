@@ -10,7 +10,7 @@
 		095ACD71265C247200D00042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACD70265C247200D00042 /* AppDelegate.swift */; };
 		095ACD7A265C247B00D00042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095ACD79265C247B00D00042 /* Assets.xcassets */; };
 		095ACD7D265C247B00D00042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095ACD7B265C247B00D00042 /* LaunchScreen.storyboard */; };
-		095ACD8A265C257C00D00042 /* 	.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACD88265C257C00D00042 /* 	.swift */; };
+		095ACD8A265C257C00D00042 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACD88265C257C00D00042 /* SplashViewController.swift */; };
 		095ACD8B265C257C00D00042 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095ACD89265C257C00D00042 /* SplashViewController.xib */; };
 /* End PBXBuildFile section */
 
@@ -20,7 +20,7 @@
 		095ACD79265C247B00D00042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		095ACD7C265C247B00D00042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		095ACD7E265C247B00D00042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		095ACD88265C257C00D00042 /* 	.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\t.swift"; sourceTree = "<group>"; };
+		095ACD88265C257C00D00042 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		095ACD89265C257C00D00042 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +74,7 @@
 		095ACD8E265C259600D00042 /* SplashView */ = {
 			isa = PBXGroup;
 			children = (
-				095ACD88265C257C00D00042 /* 	.swift */,
+				095ACD88265C257C00D00042 /* SplashViewController.swift */,
 				095ACD89265C257C00D00042 /* SplashViewController.xib */,
 			);
 			path = SplashView;
@@ -151,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				095ACD71265C247200D00042 /* AppDelegate.swift in Sources */,
-				095ACD8A265C257C00D00042 /* 	.swift in Sources */,
+				095ACD8A265C257C00D00042 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
