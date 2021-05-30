@@ -25,7 +25,7 @@ class BaseViewController<P>:UIViewController {
         super .viewDidDisappear(animated)
     }
     override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated	)
+        super.viewWillDisappear(animated)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -33,14 +33,61 @@ class BaseViewController<P>:UIViewController {
     
 }
 
-class BasePresenter<V, R, I>{
+class BasePresenter<V, R/*, I*/>{
+    
+    internal var viewController: V?
+    internal var router: R?
+    
+    convenience init(viewController: V? = nil, router: R? = nil){
+        self.init()
+        self.viewController = viewController
+        self.router = router
+    }
+}
+
+class BaseInteractor<P>{
+    
+    internal var presenter: P?
+    
+    convenience init(presenter: P){
+        self.init()
+        self.presenter = presenter
+    }
     
 }
 
-class BaseRouter<V, P>{
+class BaseRouter</*V,*/ P>{
+    
+    internal var presenter: P?
+    
+    internal var viewController: UIViewController?
+    
+    
+    convenience init(presenter: P? = nil, view:UIViewController? = nil){
+        self.init()
+        self.presenter = presenter
+        self.viewController = view
+    }
+    
+    internal func showVC (_ vc: UIViewController){
+        if let navigationController = viewController?.navigationController{
+            navigationController.pushViewController(vc, animated: true)
+        }
+    }
+    
+    internal func presentVC (_ vcToPresent: UIViewController, animated flag: Bool, completion: (() -> Swift.Void)? = nil){
+        if let navigationController = viewController?.navigationController{
+            navigationController.present(vcToPresent, animated: flag, completion: completion)
+            return
+        }
+        viewController?.present(vcToPresent, animated: flag, completion: completion)
+    }
     
 }
 
-class Interactor<P>{
+class BaseNavigationController: UINavigationController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }

@@ -14,6 +14,10 @@
 		095ACD8B265C257C00D00042 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095ACD89265C257C00D00042 /* SplashViewController.xib */; };
 		095ACD94265C315700D00042 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACD93265C315700D00042 /* AppAssembly.swift */; };
 		095ACD9B265C390200D00042 /* BaseVIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACD9A265C390200D00042 /* BaseVIPER.swift */; };
+		095ACD9F265EC59300D00042 /* SplashPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACD9E265EC59300D00042 /* SplashPresenterImpl.swift */; };
+		095ACDA2265EC74000D00042 /* SplashRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACDA1265EC74000D00042 /* SplashRouterImpl.swift */; };
+		095ACDA5265ECB9900D00042 /* SplashAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACDA4265ECB9900D00042 /* SplashAssembly.swift */; };
+		095ACDA9265ECCF500D00042 /* ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACDA8265ECCF500D00042 /* ReuseIdentifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		095ACD89265C257C00D00042 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 		095ACD93265C315700D00042 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
 		095ACD9A265C390200D00042 /* BaseVIPER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVIPER.swift; sourceTree = "<group>"; };
+		095ACD9E265EC59300D00042 /* SplashPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenterImpl.swift; sourceTree = "<group>"; };
+		095ACDA1265EC74000D00042 /* SplashRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouterImpl.swift; sourceTree = "<group>"; };
+		095ACDA4265ECB9900D00042 /* SplashAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAssembly.swift; sourceTree = "<group>"; };
+		095ACDA8265ECCF500D00042 /* ReuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		095ACD6F265C247200D00042 /* CiceSport */ = {
 			isa = PBXGroup;
 			children = (
+				095ACDA7265ECCD600D00042 /* Helpers */,
 				095ACD99265C38E900D00042 /* BaseVIPER */,
 				095ACD92265C30DC00D00042 /* Core */,
 				095ACD87265C253300D00042 /* Modules */,
@@ -82,6 +91,9 @@
 			children = (
 				095ACD88265C257C00D00042 /* SplashViewController.swift */,
 				095ACD89265C257C00D00042 /* SplashViewController.xib */,
+				095ACD9E265EC59300D00042 /* SplashPresenterImpl.swift */,
+				095ACDA1265EC74000D00042 /* SplashRouterImpl.swift */,
+				095ACDA4265ECB9900D00042 /* SplashAssembly.swift */,
 			);
 			path = SplashView;
 			sourceTree = "<group>";
@@ -100,6 +112,14 @@
 				095ACD9A265C390200D00042 /* BaseVIPER.swift */,
 			);
 			path = BaseVIPER;
+			sourceTree = "<group>";
+		};
+		095ACDA7265ECCD600D00042 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				095ACDA8265ECCF500D00042 /* ReuseIdentifier.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,9 +193,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				095ACD94265C315700D00042 /* AppAssembly.swift in Sources */,
+				095ACDA5265ECB9900D00042 /* SplashAssembly.swift in Sources */,
+				095ACD9F265EC59300D00042 /* SplashPresenterImpl.swift in Sources */,
 				095ACD71265C247200D00042 /* AppDelegate.swift in Sources */,
 				095ACD8A265C257C00D00042 /* SplashViewController.swift in Sources */,
 				095ACD9B265C390200D00042 /* BaseVIPER.swift in Sources */,
+				095ACDA2265EC74000D00042 /* SplashRouterImpl.swift in Sources */,
+				095ACDA9265ECCF500D00042 /* ReuseIdentifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,7 +19,7 @@ class AppAssembly: AppAssemblyProtocol {
     
     internal func setPrincipalViewController(in window: UIWindow){
         
-        actualViewController = SplashViewController()
+        actualViewController = SplashAssembly.splashNavigationController()
         window.rootViewController = actualViewController
         window.makeKeyAndVisible()
     }
