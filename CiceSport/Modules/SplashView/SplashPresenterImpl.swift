@@ -11,13 +11,13 @@ protocol SplashPresenterProtocol {
     func fetchDataFromItunes()
 }
 
-class SplashPresenterImpl: BasePresenter<SplashViewController, SplashRouterProtocol> {
+	class SplashPresenterImpl: BasePresenter<SplashViewController, SplashRouterProtocol> {
     
 }
 
 extension SplashPresenterImpl: SplashPresenterProtocol{
     func fetchDataFromItunes() {
-        self.router?.goToDetialVC()
+        //self.router?.goToDetialVC()
     }
     
     
