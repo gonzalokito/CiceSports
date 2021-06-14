@@ -24,7 +24,7 @@ enum HTTPMethods: String{
     case post = "POST"
 }
 
-struct Request {
+struct RequestDTO {
     var params: [String: Any]?
     var arrayParams: [[String: Any]]?
     var method: HTTPMethods
@@ -40,6 +40,13 @@ struct Request {
         self.method=method
         self.endpoint=endpoint
     }
+}
+
+struct URLEndPoint {
+    
+    static let baseURL = "https://app-cicesport-123.herokuapp.com/"
+    
+    static let endpointMenu = "iCoMenu"
 }
 
 class Utils{

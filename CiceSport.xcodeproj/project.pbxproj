@@ -20,6 +20,7 @@
 		09B97548266E9DB8001E5817 /* SplashRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B97547266E9DB8001E5817 /* SplashRouterImpl.swift */; };
 		09B9754C266EA13E001E5817 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B9754B266EA13E001E5817 /* RequestManager.swift */; };
 		09B97550266EA271001E5817 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B9754F266EA271001E5817 /* Utils.swift */; };
+		09B975552677D1AA001E5817 /* SplashProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B975542677D1AA001E5817 /* SplashProviderImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		09B97547266E9DB8001E5817 /* SplashRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouterImpl.swift; sourceTree = "<group>"; };
 		09B9754B266EA13E001E5817 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		09B9754F266EA271001E5817 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		09B975542677D1AA001E5817 /* SplashProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashProviderImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +97,10 @@
 		095ACD8E265C259600D00042 /* SplashView */ = {
 			isa = PBXGroup;
 			children = (
+				09B975532677D17E001E5817 /* Infrastructure */,
 				095ACD88265C257C00D00042 /* SplashViewController.swift */,
 				095ACD89265C257C00D00042 /* SplashViewController.xib */,
 				095ACD9E265EC59300D00042 /* SplashPresenterImpl.swift */,
-				095ACDA4265ECB9900D00042 /* SplashAssembly.swift */,
 				09B97547266E9DB8001E5817 /* SplashRouterImpl.swift */,
 			);
 			path = SplashView;
@@ -142,6 +144,15 @@
 				09B9754F266EA271001E5817 /* Utils.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		09B975532677D17E001E5817 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				095ACDA4265ECB9900D00042 /* SplashAssembly.swift */,
+				09B975542677D1AA001E5817 /* SplashProviderImpl.swift */,
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +233,7 @@
 				09B97550266EA271001E5817 /* Utils.swift in Sources */,
 				095ACD9B265C390200D00042 /* BaseVIPER.swift in Sources */,
 				09B9754C266EA13E001E5817 /* RequestManager.swift in Sources */,
+				09B975552677D1AA001E5817 /* SplashProviderImpl.swift in Sources */,
 				095ACDA9265ECCF500D00042 /* ReuseIdentifier.swift in Sources */,
 				09B97548266E9DB8001E5817 /* SplashRouterImpl.swift in Sources */,
 			);
