@@ -8,7 +8,7 @@
 import Foundation
 
 protocol SplashRouterProtocol {
-  //func showApp(dataMenu: [MenuResponse])
+  func gotoDetailVC()
 }
 
 

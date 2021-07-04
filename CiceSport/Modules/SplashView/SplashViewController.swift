@@ -11,6 +11,7 @@ class SplashViewController: BaseViewController<SplashPresenterProtocol>,ReuseIde
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.presenter?.fetchDataFromHeroku()
 
         // Do any additional setup after loading the view.
     }
