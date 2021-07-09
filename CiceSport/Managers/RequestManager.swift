@@ -1,7 +1,8 @@
 //
 //  RequestManager.swift
 //  CiceSport
-//frº eshu//  Created by cice on 07/06/2021.
+//
+//  Created by cice on 07/06/2021.
 //
 
 import Foundation
@@ -16,8 +17,14 @@ class RequestManager: RequestManagerProtocol {
     internal func requestGeneric<T: Decodable>(requestDTO: RequestDTO, entityClass: T.Type) -> AnyPublisher<T, ApiError>{
         
         let endpoint = requestDTO.endpoint
+        var urlRequest = URLRequest(url: URL(string: endpoint)!)
+        let headers = AppAssembly.defaultHTTPHeaders
+
+        headers.forEach { (key, value) in
+            urlRequest.setValue(value, forHTTPHeaderField: key)      
+        }
     
-        guard let urlDes = URL(string: endpoint) else{
+        guard let urlDes = URL(string: endpoint) else {
             preconditionFailure("\(ApiError.unknow)")
         }
         
