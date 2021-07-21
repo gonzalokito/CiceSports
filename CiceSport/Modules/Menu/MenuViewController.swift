@@ -10,5 +10,5 @@ import MessageUI
 
 class MenuViewController: UIViewController {
 
-    var aux: [MenuResponse]
+    var aux: [MenuResponse] = []
 }

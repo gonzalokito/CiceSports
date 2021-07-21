@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol SplashRouterProtocol {
   func showApp(dataMenu: [MenuResponse])
@@ -21,6 +22,6 @@ extension SplashRouterImpl: SplashRouterProtocol {
       let delegate = UIApplication.shared.delegate as? AppDelegate
       let assembly = AppAssembly()
       let vc = HomeTabBarAssembly.homeTabBarController()
-      assembly.createSlidingMenu(window: delegate?.window!, vc: vc, menu: dataMenu)
+        assembly.createSlidingMenu(window: (delegate?.window)!, vc: vc, menu: dataMenu)
     }
 }

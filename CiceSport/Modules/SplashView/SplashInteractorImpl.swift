@@ -23,7 +23,7 @@ extension SplashInteractorImpl: SplashInteractorProtocol {
         guard self != nil else { return }
         switch result{
             case.success(let response):
-             success(responseMenuModel.menuResponse)
+             success(response.menuResponse)
             case.failure(let error):
              failure(error)
         }

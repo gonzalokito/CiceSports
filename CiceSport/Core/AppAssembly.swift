@@ -30,8 +30,8 @@ class AppAssembly: AppAssemblyProtocol {
         let frontViewController = vc
         let rearViewController = MenuViewController()
         rearViewController.aux = menu
-        let swrevealVC = SWrevealViewController(rearViewController: rearViewController, frontViewController: frontViewController)
-        swrevealVC?.toggleAnimationType = SWrevealAnimationType.easeOut
+        let swrevealVC = SWRevealViewController(rearViewController: rearViewController, frontViewController: frontViewController)
+        swrevealVC?.toggleAnimationType = SWRevealToggleAnimationType.easeOut
         swrevealVC?.toggleAnimationDuration = 0.30
         window.rootViewController = swrevealVC
         window.makeKeyAndVisible()
@@ -39,21 +39,21 @@ class AppAssembly: AppAssemblyProtocol {
     }
 
     fileprivate func customUI() {
-        let navBar = UINavigationBar.appearence()
-        let tabBar = UITabBar.appearence()
+        let navBar = UINavigationBar.appearance()
+        let tabBar = UITabBar.appearance()
         //let toolBar= UIToolbar.appearence()
 
         navBar.barTintColor = #colorLiteral(red: 0.2328504622, green: 0.2328960001, blue: 0.2328444719, alpha: 1)
         tabBar.barTintColor = #colorLiteral(red: 0.2328504622, green: 0.2328960001, blue: 0.2328444719, alpha: 1)
         tabBar.tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-        navBar.barStryle = .black
+        navBar.barStyle = .black
         navBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1) ]
     }
 
     public static let defaultHTTPHeaders: HTTPHeaders = {
         let BearerAuthentication = AuthHerokus.authHeroku
-        return{
+        return [
             "Authorization": BearerAuthentication
-        }
+        ]
     }()
 }

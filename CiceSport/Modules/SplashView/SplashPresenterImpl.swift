@@ -26,7 +26,7 @@ extension SplashPresenterImpl: SplashPresenterProtocol{
             if let resultArraydDes = resultArray{
                 self?.viewModel.removeAll()
                 self?.viewModel = resultArraydDes
-                self?.viewController?.fetchDataFromPresent()
+                self?.viewController?.fetchDataFromPresent(data: (self?.viewModel[0])!)
             }
         }, failure: { (error) in
             print(error?.localizedDescription ?? "Aqui Andres mete gamba")
@@ -34,6 +34,6 @@ extension SplashPresenterImpl: SplashPresenterProtocol{
     }
 
     internal func showHomeTabBar() {
-        self.router.showApp(dataMenu: self.viewModel)
+        /*self.router.showApp(dataMenu: self.viewModel)*/
     }
 }

@@ -1,4 +1,4 @@
-//
+	//
 //  HomeTabBarController.swift
 //  CiceSport
 //
@@ -7,7 +7,8 @@
 
 import UIKit
 
-class HomeTabBarController: UITabBarController {
+    class HomeTabBarController: UITabBarController, ReuseIdentifierInterfaceViewController {
+        
 
     override func viewDidLoad() {
         super.viewDidLoad()

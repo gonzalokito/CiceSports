@@ -35,3 +35,4 @@ final public class HomeTabBarAssembly {
         return viewController
     }
 }
+	

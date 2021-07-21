@@ -29,8 +29,8 @@ struct RequestDTO {
     var arrayParams: [[String: Any]]?
     var method: HTTPMethods
     var endpoint: String
-    
-    init(params: [String: Any],method: HTTPMethods, endpoint: String){
+
+    init(params: [String: Any]?,method: HTTPMethods, endpoint: String){
         self.params=params
         self.method=method
         self.endpoint=endpoint

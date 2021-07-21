@@ -12,7 +12,6 @@
 		095ACD7D265C247B00D00042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095ACD7B265C247B00D00042 /* LaunchScreen.storyboard */; };
 		095ACD8A265C257C00D00042 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACD88265C257C00D00042 /* SplashViewController.swift */; };
 		095ACD8B265C257C00D00042 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095ACD89265C257C00D00042 /* SplashViewController.xib */; };
-		095ACD94265C315700D00042 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACD93265C315700D00042 /* AppAssembly.swift */; };
 		095ACD9B265C390200D00042 /* BaseVIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACD9A265C390200D00042 /* BaseVIPER.swift */; };
 		095ACD9F265EC59300D00042 /* SplashPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACD9E265EC59300D00042 /* SplashPresenterImpl.swift */; };
 		095ACDA5265ECB9900D00042 /* SplashAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ACDA4265ECB9900D00042 /* SplashAssembly.swift */; };
@@ -21,6 +20,18 @@
 		09B9754C266EA13E001E5817 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B9754B266EA13E001E5817 /* RequestManager.swift */; };
 		09B97550266EA271001E5817 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B9754F266EA271001E5817 /* Utils.swift */; };
 		09B975552677D1AA001E5817 /* SplashProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B975542677D1AA001E5817 /* SplashProviderImpl.swift */; };
+		09ED9C9A26A883DC0027DA5A /* HomeTabBarAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED9C9726A883DC0027DA5A /* HomeTabBarAssembly.swift */; };
+		09ED9C9B26A883DC0027DA5A /* HomeTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ED9C9826A883DC0027DA5A /* HomeTabBarController.xib */; };
+		09ED9C9C26A883DC0027DA5A /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED9C9926A883DC0027DA5A /* HomeTabBarController.swift */; };
+		09ED9CA126A884000027DA5A /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ED9C9F26A884000027DA5A /* MenuViewController.xib */; };
+		09ED9CA226A884000027DA5A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED9CA026A884000027DA5A /* MenuViewController.swift */; };
+		09ED9CA826A8841C0027DA5A /* TrainingOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED9CA626A8841C0027DA5A /* TrainingOneViewController.swift */; };
+		09ED9CA926A8841C0027DA5A /* TrainingOnewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ED9CA726A8841C0027DA5A /* TrainingOnewViewController.xib */; };
+		09ED9CAD26A8844E0027DA5A /* ResponseMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED9CAC26A8844E0027DA5A /* ResponseMenuModel.swift */; };
+		09ED9CB126A8845D0027DA5A /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED9CB026A8845D0027DA5A /* MenuViewModel.swift */; };
+		09ED9CB526A8866A0027DA5A /* SplashInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED9CB426A8866A0027DA5A /* SplashInteractorImpl.swift */; };
+		09ED9CC426A8991C0027DA5A /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED9CC326A8991C0027DA5A /* AppAssembly.swift */; };
+		09ED9CC926A8996F0027DA5A /* SWRevealViewController .m in Sources */ = {isa = PBXBuildFile; fileRef = 09ED9CC826A8996F0027DA5A /* SWRevealViewController .m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +42,6 @@
 		095ACD7E265C247B00D00042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		095ACD88265C257C00D00042 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		095ACD89265C257C00D00042 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
-		095ACD93265C315700D00042 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
 		095ACD9A265C390200D00042 /* BaseVIPER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVIPER.swift; sourceTree = "<group>"; };
 		095ACD9E265EC59300D00042 /* SplashPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenterImpl.swift; sourceTree = "<group>"; };
 		095ACDA4265ECB9900D00042 /* SplashAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAssembly.swift; sourceTree = "<group>"; };
@@ -40,6 +50,20 @@
 		09B9754B266EA13E001E5817 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		09B9754F266EA271001E5817 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		09B975542677D1AA001E5817 /* SplashProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashProviderImpl.swift; sourceTree = "<group>"; };
+		09ED9C9726A883DC0027DA5A /* HomeTabBarAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarAssembly.swift; sourceTree = "<group>"; };
+		09ED9C9826A883DC0027DA5A /* HomeTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTabBarController.xib; sourceTree = "<group>"; };
+		09ED9C9926A883DC0027DA5A /* HomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		09ED9C9F26A884000027DA5A /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		09ED9CA026A884000027DA5A /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		09ED9CA626A8841C0027DA5A /* TrainingOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingOneViewController.swift; sourceTree = "<group>"; };
+		09ED9CA726A8841C0027DA5A /* TrainingOnewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrainingOnewViewController.xib; sourceTree = "<group>"; };
+		09ED9CAC26A8844E0027DA5A /* ResponseMenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseMenuModel.swift; sourceTree = "<group>"; };
+		09ED9CB026A8845D0027DA5A /* MenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		09ED9CB426A8866A0027DA5A /* SplashInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashInteractorImpl.swift; sourceTree = "<group>"; };
+		09ED9CC326A8991C0027DA5A /* AppAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
+		09ED9CC726A8996F0027DA5A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		09ED9CC826A8996F0027DA5A /* SWRevealViewController .m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SWRevealViewController .m"; sourceTree = "<group>"; };
+		09ED9CCB26A8998B0027DA5A /* CiceSport-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CiceSport-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,11 +96,12 @@
 		095ACD6F265C247200D00042 /* CiceSport */ = {
 			isa = PBXGroup;
 			children = (
+				09ED9CC626A899440027DA5A /* MenuLateral */,
+				09ED9CC226A8991C0027DA5A /* Core */,
 				09B9754E266EA263001E5817 /* Utils */,
 				09B9754A266EA10D001E5817 /* Managers */,
 				095ACDA7265ECCD600D00042 /* Helpers */,
 				095ACD99265C38E900D00042 /* BaseVIPER */,
-				095ACD92265C30DC00D00042 /* Core */,
 				095ACD87265C253300D00042 /* Modules */,
 				095ACD70265C247200D00042 /* AppDelegate.swift */,
 				095ACD79265C247B00D00042 /* Assets.xcassets */,
@@ -89,7 +114,10 @@
 		095ACD87265C253300D00042 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				09ED9C9E26A884000027DA5A /* Menu */,
+				09ED9C9626A883DC0027DA5A /* Home */,
 				095ACD8E265C259600D00042 /* SplashView */,
+				09ED9CA426A8841C0027DA5A /* Training */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -98,20 +126,13 @@
 			isa = PBXGroup;
 			children = (
 				09B975532677D17E001E5817 /* Infrastructure */,
+				09ED9CB426A8866A0027DA5A /* SplashInteractorImpl.swift */,
 				095ACD88265C257C00D00042 /* SplashViewController.swift */,
 				095ACD89265C257C00D00042 /* SplashViewController.xib */,
 				095ACD9E265EC59300D00042 /* SplashPresenterImpl.swift */,
 				09B97547266E9DB8001E5817 /* SplashRouterImpl.swift */,
 			);
 			path = SplashView;
-			sourceTree = "<group>";
-		};
-		095ACD92265C30DC00D00042 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				095ACD93265C315700D00042 /* AppAssembly.swift */,
-			);
-			path = Core;
 			sourceTree = "<group>";
 		};
 		095ACD99265C38E900D00042 /* BaseVIPER */ = {
@@ -149,10 +170,83 @@
 		09B975532677D17E001E5817 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				09ED9CAB26A8844E0027DA5A /* ServerModel */,
 				095ACDA4265ECB9900D00042 /* SplashAssembly.swift */,
 				09B975542677D1AA001E5817 /* SplashProviderImpl.swift */,
+				09ED9CAF26A8845D0027DA5A /* ViewModel */,
 			);
 			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		09ED9C9626A883DC0027DA5A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				09ED9C9726A883DC0027DA5A /* HomeTabBarAssembly.swift */,
+				09ED9C9826A883DC0027DA5A /* HomeTabBarController.xib */,
+				09ED9C9926A883DC0027DA5A /* HomeTabBarController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		09ED9C9E26A884000027DA5A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				09ED9C9F26A884000027DA5A /* MenuViewController.xib */,
+				09ED9CA026A884000027DA5A /* MenuViewController.swift */,
+			);
+			name = Menu;
+			path = CiceSport/Modules/Menu;
+			sourceTree = SOURCE_ROOT;
+		};
+		09ED9CA426A8841C0027DA5A /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				09ED9CA526A8841C0027DA5A /* N1 */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
+		09ED9CA526A8841C0027DA5A /* N1 */ = {
+			isa = PBXGroup;
+			children = (
+				09ED9CA626A8841C0027DA5A /* TrainingOneViewController.swift */,
+				09ED9CA726A8841C0027DA5A /* TrainingOnewViewController.xib */,
+			);
+			path = N1;
+			sourceTree = "<group>";
+		};
+		09ED9CAB26A8844E0027DA5A /* ServerModel */ = {
+			isa = PBXGroup;
+			children = (
+				09ED9CAC26A8844E0027DA5A /* ResponseMenuModel.swift */,
+			);
+			path = ServerModel;
+			sourceTree = "<group>";
+		};
+		09ED9CAF26A8845D0027DA5A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				09ED9CB026A8845D0027DA5A /* MenuViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		09ED9CC226A8991C0027DA5A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				09ED9CC326A8991C0027DA5A /* AppAssembly.swift */,
+				09ED9CCB26A8998B0027DA5A /* CiceSport-Bridging-Header.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		09ED9CC626A899440027DA5A /* MenuLateral */ = {
+			isa = PBXGroup;
+			children = (
+				09ED9CC826A8996F0027DA5A /* SWRevealViewController .m */,
+				09ED9CC726A8996F0027DA5A /* SWRevealViewController.h */,
+			);
+			path = MenuLateral;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +280,7 @@
 				TargetAttributes = {
 					095ACD6C265C247200D00042 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -214,7 +309,10 @@
 			files = (
 				095ACD7D265C247B00D00042 /* LaunchScreen.storyboard in Resources */,
 				095ACD8B265C257C00D00042 /* SplashViewController.xib in Resources */,
+				09ED9CA126A884000027DA5A /* MenuViewController.xib in Resources */,
+				09ED9C9B26A883DC0027DA5A /* HomeTabBarController.xib in Resources */,
 				095ACD7A265C247B00D00042 /* Assets.xcassets in Resources */,
+				09ED9CA926A8841C0027DA5A /* TrainingOnewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,17 +323,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				095ACD94265C315700D00042 /* AppAssembly.swift in Sources */,
+				09ED9CA226A884000027DA5A /* MenuViewController.swift in Sources */,
+				09ED9CB526A8866A0027DA5A /* SplashInteractorImpl.swift in Sources */,
 				095ACDA5265ECB9900D00042 /* SplashAssembly.swift in Sources */,
+				09ED9CB126A8845D0027DA5A /* MenuViewModel.swift in Sources */,
+				09ED9C9C26A883DC0027DA5A /* HomeTabBarController.swift in Sources */,
 				095ACD9F265EC59300D00042 /* SplashPresenterImpl.swift in Sources */,
 				095ACD71265C247200D00042 /* AppDelegate.swift in Sources */,
+				09ED9CAD26A8844E0027DA5A /* ResponseMenuModel.swift in Sources */,
+				09ED9CA826A8841C0027DA5A /* TrainingOneViewController.swift in Sources */,
+				09ED9CC426A8991C0027DA5A /* AppAssembly.swift in Sources */,
 				095ACD8A265C257C00D00042 /* SplashViewController.swift in Sources */,
 				09B97550266EA271001E5817 /* Utils.swift in Sources */,
 				095ACD9B265C390200D00042 /* BaseVIPER.swift in Sources */,
 				09B9754C266EA13E001E5817 /* RequestManager.swift in Sources */,
 				09B975552677D1AA001E5817 /* SplashProviderImpl.swift in Sources */,
+				09ED9CC926A8996F0027DA5A /* SWRevealViewController .m in Sources */,
 				095ACDA9265ECCF500D00042 /* ReuseIdentifier.swift in Sources */,
 				09B97548266E9DB8001E5817 /* SplashRouterImpl.swift in Sources */,
+				09ED9C9A26A883DC0027DA5A /* HomeTabBarAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CiceSport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -382,6 +489,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cice-Gonzalo.CiceSport";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CiceSport/Core/CiceSport-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -392,6 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CiceSport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -400,6 +510,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cice-Gonzalo.CiceSport";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CiceSport/Core/CiceSport-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

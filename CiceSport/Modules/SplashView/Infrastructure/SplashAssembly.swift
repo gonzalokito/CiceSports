@@ -27,7 +27,7 @@ final public class SplashAssembly{
         return presenter
     }
 
-    static fun splashInteractor() -> SplashInteractorProtocol{
+    static func splashInteractor() -> SplashInteractorProtocol{
         let interactor = SplashInteractorImpl()
         return interactor
     }
