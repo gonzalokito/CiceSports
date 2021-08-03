@@ -7,11 +7,25 @@
 
 import UIKit
 
-class TrainingOneViewController: UIViewController {
+protocol TrainingOneViewControllerProtocol {
+    func reloadData()
+}
+
+class TrainingOneViewController: BaseViewController<TrainingOnePresenterProtocol>, ReuseIdentifierInterfaceViewController {
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.menuButton()
+        //self.showLoading()
     }
+    
+}
+
+extension TrainingOneViewController: TrainingOneViewControllerProtocol {
+    
+    func reloadData() {
+        //self.hideLoading()
+    }
+    
 }
